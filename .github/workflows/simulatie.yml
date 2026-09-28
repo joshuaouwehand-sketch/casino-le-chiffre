@@ -2,7 +2,7 @@ name: Nachtelijke simulatie
 
 on:
   schedule:
-    - cron: "0 1 * * *"
+    - cron: "0 100 * * *"
   workflow_dispatch:
 
 jobs:
